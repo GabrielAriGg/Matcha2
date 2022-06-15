@@ -7,7 +7,7 @@ h1 {
 }
 p {
     color: #8b8b8bcc;
-    font-family: verdana;
+    font-family: 'Libre Baskerville', serif;
     font-size: 20px;
     text-align: center;
 
@@ -18,4 +18,65 @@ form{
 button {
     color:#fff;
     background-color: #025157;
+}
+
+.header{
+    margin: 40px 20px 0;
+    font-size: 0;
+    font-family: sans-serif;
+    height: 45px;  
+}
+li{
+    margin-right: 25px;
+    margin-left: 25px;
+    display: inline;
+}
+.header > * { /*todos los hijos del header * */
+    line-height: 45px;
+    height:100%;
+    display: inline-block;
+    font-size:16px;
+    vertical-align:middle;
+}
+.navbar{
+    width: 70%;
+    text-align: left;
+    color: #025157;
+    /*font-weight: 500;*/                 
+}    
+
+.actions{
+    
+    text-align:left;
+    font-size:14px;
+    width:15%;
+    /*font-weight: 600;    */         
+}
+.actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+.actions a {
+    color: #67b54b;
+  }
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+  }
+  
+.logo {width:15%;}
+.logo > img {
+   
+    width:15%;
+}
+.main{
+  margin-top: 140px;
+  text-align: center;
 }
