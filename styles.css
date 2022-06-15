@@ -19,48 +19,51 @@ button {
     color:#fff;
     background-color: #025157;
 }
-
+/*-----------------------------------------header navegacion---------*/
 .header{
-    margin: 40px 20px 0;
-    font-size: 0;
+    margin: 10px 20px 0;
+    /*font-size: 0;-----------++++++++++++++++++++++++++++*/
     font-family: sans-serif;
     height: 45px;  
 }
 li{
+    
     margin-right: 25px;
     margin-left: 25px;
     display: inline;
 }
 .header > * { /*todos los hijos del header * */
-    line-height: 45px;
+    line-height: 20px;/*tamaño de separacion entre el el comien
+    -zo del contenedor header..top y el final header..bottom*/
     height:100%;
     display: inline-block;
     font-size:16px;
     vertical-align:middle;
 }
-.navbar{
-    width: 70%;
-    text-align: left;
+.navbar{/*propiedades del contenedor nav(no aplica a todos sus elementos)*/
+    
+    width:80%;
+    text-align:left;
     color: #025157;
     /*font-weight: 500;*/                 
 }    
 
-.actions{
+.actions{ /*propiedades de la toda la clase accion(solo afectan a algunos elementos )*/
     
     text-align:left;
     font-size:14px;
     width:15%;
     /*font-weight: 600;    */         
 }
-.actions > * {
+.actions > * { /*Propiedades del los hijos de la clase actions*/
     margin-right: 10px;
     margin-left: 10px;
   }
   
-.actions a {
+.actions a { /*propiedades del link*/
     color: #67b54b;
   }
-.actions button {
+.actions button {  /*propiedades del boton*/
     color: white;
     background-color: #67b54b;
     padding-left: 14px;
@@ -71,11 +74,12 @@ li{
     border-radius: 5px;
   }
   
-.logo {width:15%;}
+.logo {width:60px;}/*La anchura de la caja del elemento <a></a> inline block */
 .logo > img {
-   
-    width:15%;
+    /*el tamaño de la imagen*/
+    width:110%;
 }
+/*--------------------------------------------section-------------*/
 .main{
   margin-top: 140px;
   text-align: center;
