@@ -22,7 +22,7 @@ button {
 /*-----------------------------------------header navegacion---------*/
 .header{
     margin: 10px 20px 0;
-    /*font-size: 0;-----------++++++++++++++++++++++++++++*/
+    font-size: 0;/*tamaño del espaciado o letras  en el header*/
     font-family: sans-serif;
     height: 45px;  
 }
@@ -38,14 +38,15 @@ li{
     height:100%;
     display: inline-block;
     font-size:16px;
-    vertical-align:middle;
+    vertical-align: middle; /* aliniacion vertical de los elementos hijos del header */
+    
 }
 .navbar{/*propiedades del contenedor nav(no aplica a todos sus elementos)*/
     
     width:80%;
     text-align:left;
     color: #025157;
-    /*font-weight: 500;*/                 
+    /* font-weight: 100; */             
 }    
 
 .actions{ /*propiedades de la toda la clase accion(solo afectan a algunos elementos )*/
@@ -56,6 +57,7 @@ li{
     /*font-weight: 600;    */         
 }
 .actions > * { /*Propiedades del los hijos de la clase actions*/
+    margin-top: 10px;
     margin-right: 10px;
     margin-left: 10px;
   }
