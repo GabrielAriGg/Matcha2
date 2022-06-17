@@ -4,6 +4,7 @@ body{
 h1 {
     color:#025157;
     text-align: center;
+    font-size: 50px;
 }
 p {
     color: #8b8b8bcc;
@@ -20,11 +21,19 @@ button {
     background-color: #025157;
 }
 /*-----------------------------------------header navegacion---------*/
+
 .header{
     margin: 10px 20px 0;
     font-size: 0;/*tamaño del espaciado o letras  en el header*/
     font-family: sans-serif;
     height: 45px;  
+}
+.fixedheader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff7;
 }
 li{
     
@@ -83,6 +92,34 @@ li{
 }
 /*--------------------------------------------section-------------*/
 .main{
-  margin-top: 140px;
+  margin-top: 285px;
   text-align: center;
+}
+/*---------------------------------------------------*/
+.promo{
+    
+ display: flex;
+ width: 70%;
+ margin: 100px auto;/*con auto reparte el margen*/   
+ 
+}
+video{
+    margin: 30px;
+}
+.videocont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.videocont img{
+    width: 100px;
+    height: 40px;
+}
+h2{
+    color:#025157;
+}
+.ppublicidad{
+    text-align: left;
+    color: #343434;
 }
