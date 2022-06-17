@@ -1,5 +1,5 @@
 body{
-    background-color: #fff7;
+    background-color: rgba(238, 176, 176, 0.467);
 }
 h1 {
     color:#025157;
@@ -19,7 +19,7 @@ button {
     color:#fff;
     background-color: #025157;
 }
-/*-----------------------------------------header navegacion---------*/
+/*-----------------------------------------header navegacion---------------------------------------------------------*/
 .header{
     margin: 10px 20px 0;
     font-size: 0;/*tamaño del espaciado o letras  en el header*/
@@ -75,13 +75,13 @@ li{
     border: 0;
     border-radius: 5px;
   }
-  
-.logo {width:60px;}/*La anchura de la caja del elemento <a></a> inline block */
-.logo > img {
+  .logo {width:60px;}/*La anchura de la caja del elemento <a></a> inline block */
+  .logo > img {
+    
     /*el tamaño de la imagen*/
     width:110%;
 }
-/*--------------------------------------------section-------------*/
+/*--------------------------------------------section-------------------------------------------------------------------*/
 .main{
   margin-top: 140px;
   text-align: center;
