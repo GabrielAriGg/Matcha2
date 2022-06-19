@@ -1,7 +1,7 @@
 body{
-    background-color: #fff7;
+    background-color:#fff7;
 }
-h1 {
+    h1 {
     color:#025157;
     text-align: center;
     font-size: 50px;
@@ -20,7 +20,6 @@ button {
     color:#fff;
     background-color: #025157;
 }
-/*-----------------------------------------header navegacion---------*/
 
 .header{
     margin: 10px 20px 0;
@@ -84,13 +83,13 @@ li{
     border: 0;
     border-radius: 5px;
   }
-  
-.logo {width:60px;}/*La anchura de la caja del elemento <a></a> inline block */
-.logo > img {
+  .logo {width:60px;}/*La anchura de la caja del elemento <a></a> inline block */
+  .logo > img {
+    
     /*el tamaño de la imagen*/
     width:110%;
 }
-/*--------------------------------------------section-------------*/
+/*--------------------------------------------section-------------------------------------------------------------------*/
 .main{
   margin-top: 285px; /*se modifico*/
   text-align: center;
@@ -128,39 +127,51 @@ h2{
     background-color: #a1d683;
     display: flex;
     width: 100%;
-    margin: 200px  auto;   
-    
+    margin: 200px auto;
+    justify-content: space-around;
+    padding: 5% 5%;
 }
-
 .who-left {
-    margin-left: 200px ;    
+    margin-left: 300px ;    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    
 }
 .who-left img{
     width: 500px;
     height: 150px;
 }
-
 .who-right{
     display: flex;
     flex-direction: column;
-    margin:50px 80px 50px  80px;
-    border:dashed #539443;
-    border-radius: 30px;
-    
-       
+    margin:50px 300px 50px  80px;
+    border-radius: 30px; 
 }
+.who-right-padre{
+    max-width: 370px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+/*-------------------header----*/
 .who-right-header{
     display: flex;
-    height: 30%;
+    height: 25%;
     
     
+}
+.who-right-header img {
+    width: 100%;
+    max-height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .imagen-absolute{
     position: absolute;
-    bottom: -1080px;
+    bottom: -1000px;
     right: 260px;
     width: 100px;
     height: 100px;
@@ -171,40 +182,34 @@ h2{
     align-items: center;
 }
 .figure{
-    width: 80%;
-
+    width: 100%;  
+}
+/*-----------------body----- */
+.who-right-body{
+  padding: 25px; 
+  height: 55%;
+    
 }
 h4{
-    text-align: left;
-    color: #025157;
-    margin-left: 20px;
+  color: #025157;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 12px;
 }
 .who-right-body p{
     margin-left: 20px;
-    
+    margin-right: 20px;
     text-align: left;
     font-family: verdana;
 }
-.who-right-body{
-    display: inline-block;
-    justify-content: center;
-    width: 55.5%;
-    height: 40%;
-    background-color: white;
-    
-  
-    
-}
+/*----------------footer---*/
 .who-right-bottom{
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    width: 55.5%;
+    padding: 25px;
+    height: 30%;   
 }
 .who-button{
-    padding: 10px 30px;
+    padding: 10px 30px; 
     border-radius: 5px;
     border: none;
 }
